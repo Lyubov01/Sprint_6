@@ -1,4 +1,8 @@
 ENTRY_BUTTON = ['UP', 'DOWN']
+ORDER_DONE = 'Заказ оформлен'
+NAME_IN_URL = "qa-scooter"
+NAME_DZEN = "dzen"
+NAME_YANDEX = "yandex"
 
 DATA_1_FOR_ORDER = {
     'name': 'Василий',  

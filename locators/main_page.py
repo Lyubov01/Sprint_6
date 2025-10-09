@@ -1,9 +1,10 @@
 from selenium.webdriver.common.by import By
+from urls import BASE_URL
 
 COOKIE_BTN = (By.XPATH, "//button[normalize-space()='да все привыкли']")
 
 class MainPageLocators: 
-    URL = "https://qa-scooter.praktikum-services.ru/"
+    URL = BASE_URL
     FAQ_BLOCK = (By.CLASS_NAME, "Home_FourPart__1uthg")
     QUESTIONS = (By.ID, "accordion__heading-{}")
     ANSWERS   = (By.ID, "accordion__panel-{}")
